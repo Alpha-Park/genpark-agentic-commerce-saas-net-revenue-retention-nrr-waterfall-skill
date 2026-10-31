@@ -1,0 +1,23 @@
+{
+  "name": "genpark-agentic-commerce-saas-net-revenue-retention-nrr-waterfall-skill",
+  "version": "1.0.0",
+  "description": "Enterprise SaaS ARR cohort renewal, expansion, contraction, churn waterfall and Net Revenue Retention calculator.",
+  "category": "agentic_commerce",
+  "author": "GenPark AI",
+  "website": "https://www.genpark.ai",
+  "linkedin": "https://www.linkedin.com/company/92955550",
+  "main": "skills.py",
+  "tools": [
+    {
+      "name": "compute_saas_nrr_waterfall",
+      "description": "Enterprise SaaS ARR cohort renewal, expansion, contraction, churn waterfall and Net Revenue Retention calculator.",
+      "sample_input": {
+        "starting_cohort_arr": 5000000.0,
+        "expansion_arr": 950000.0,
+        "contraction_arr": 150000.0,
+        "churn_arr": 200000.0,
+        "new_logo_arr": 1200000.0
+      }
+    }
+  ]
+}
